@@ -1,0 +1,8 @@
+   while(this.rep==-1){ 
+        
+        setTimeout( () => {
+          this.http.get(this.url2+this.cin).subscribe((response) => {
+            console.log(response);
+          });
+     }, 1000);
+        }
